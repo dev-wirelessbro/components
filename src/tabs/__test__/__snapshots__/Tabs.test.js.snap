@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match its snapshot with selectedKey only 1`] = `
+<div>
+  <ul
+    className="nav nav-tabs"
+  >
+    <li
+      className="nav-item"
+      onClick={[Function]}
+    >
+      <span
+        className="nav-link active"
+      >
+        tab2
+      </span>
+    </li>
+  </ul>
+  <div
+    style={
+      Object {
+        "marginTop": 10,
+      }
+    }
+  >
+    tab2 content
+  </div>
+</div>
+`;
+
+exports[`should match its snapshot without props 1`] = `
+<div>
+  <ul
+    className="nav nav-tabs"
+  />
+</div>
+`;
